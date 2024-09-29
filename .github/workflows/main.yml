@@ -18,7 +18,7 @@ jobs:
       id: build
       uses: vmactions/freebsd-vm@v0
       with:
-        release: 13.1
+        release: 14.1
         usesh: true
         sync: sshfs
         prepare: |
