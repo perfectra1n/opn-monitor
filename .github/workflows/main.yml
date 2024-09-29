@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: macos-14
+    runs-on: ubuntu-latest
     name: Build plugins
     permissions:
       contents: write
