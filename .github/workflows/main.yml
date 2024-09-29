@@ -13,10 +13,10 @@ jobs:
       contents: write
     steps:
     - name: Checkout
-      uses: actions/checkout@latest
+      uses: actions/checkout
     - name: FreeBSD VM
       id: build
-      uses: vmactions/freebsd-vm@latest
+      uses: vmactions/freebsd-vm
       with:
         release: 14.1
         usesh: true
